@@ -34,12 +34,17 @@ ou clique no botão ![Code](image.png), depois em **Download ZIP**. Após baixar
 cd taski-challenge
 ```
 
-2. Baixe as dependências do projeto
+3. Baixe as dependências do projeto
 ```bash
 flutter pub get
 ```
 
-3. Executar a aplicação
+4. Gere os arquivos com constantes de assets e fontes com o build runner
+```bash
+dart run build_runner build
+```
+
+5. Executar a aplicação
 ```bash
 flutter run
 ```
